@@ -9,7 +9,6 @@ Projeto 6
 
 # Fecap Finance (FCPF)
 
-## 4 Oliginal, 1 Original
 
 ## Integrantes: <a href="https://github.com/R4cardo">Ricardo Liyudi</a>, <a href="https://github.com/brunosr9">Bruno Ribeiro</a>, <a href="https://github.com/Gume123">Guilherme Melo </a>, <a href="https://github.com/GabrielAugustoT800">Gabriel Augusto</a>
 
