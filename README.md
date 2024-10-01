@@ -10,7 +10,7 @@ Projeto 6
 # Fecap Finance (FPF)
 
 
-## Integrantes: <a href="https://github.com/R4cardo">Ricardo Liyudi</a>, <a href="https://github.com/brunosr9">Bruno Ribeiro</a>, <a href="https://github.com/Gume123">Guilherme Melo </a>, <a href="https://github.com/GabrielAugustoT800">Gabriel Augusto</a>
+## Integrantes: <a href="https://github.com/R4cardo">Ricardo Liyudi</a>, <a href="https://github.com/brunosr9">Bruno Ribeiro</a>, <a href="https://github.com/Gume123">Guilherme Melo </a>, <a href="https://github.com/GabrielAugustoT800">Gabriel Augusto</a>, <a href="https://github.com/kauandotexe">Kaua Rochas</a>
 
 ## Professores Orientadores: <a href="https://www.linkedin.com/in/dolemes/">Prof. David De Oliveira Lemes</a>, <a href="">Prof. Francisco de Souza Escobar</a>, <a href="">Profª. Katia Milani Lara Bossi
 </a>
