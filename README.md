@@ -11,7 +11,7 @@ Projeto 6
 
 ## 4 Oliginal, 1 Original
 
-## Integrantes: <a href="https://github.com/AntonioPetri">Antônio Petri</a>, <a href="https://github.com/danmoribe">Daniel Moribe</a>, <a href="https://github.com/paschoalha">Gabriel Paschoal</a>, <a href="https://github.com/ThiagoAkira0">Thiago Mitami</a>, <a href="https://github.com/vitorzoken">Vitor Kenzo</a>
+## Integrantes: <a href="https://github.com/R4cardo">Ricardo Liyudi</a>, <a href="https://github.com/brunosr9">Bruno Ribeiro</a>, <a href="https://github.com/Gume123">Guilherme Melo </a>, <a href="https://github.com/GabrielAugustoT800">Gabriel Augusto</a>
 
 ## Professores Orientadores: <a href="https://www.linkedin.com/in/dolemes/">Prof. David De Oliveira Lemes</a>, <a href="">Prof. Francisco de Souza Escobar</a>, <a href="">Profª. Katia Milani Lara Bossi
 </a>
