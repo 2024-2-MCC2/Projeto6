@@ -16,7 +16,7 @@ Projeto 6
 </a>
 
 ## Descrição
-O Projeto Fecap Finance ( FCPF ) tem como principal objetivo satisfazer um site para o financeiro da fecap 
+O Projeto Fecap Finance ( FPF ) tem como principal objetivo satisfazer um site para o financeiro da fecap 
 Programams com HTML , CSS , JAVASCRIPT 
 BANDO DE DADOS
 FIGMA
