@@ -76,18 +76,18 @@ https://www.figma.com/design/QRDsqKO15CaVWwQK9xZrTE/Prot%C3%B3tipo?node-id=137-2
   &emsp;&emsp;|-->public<br>
   &emsp;&emsp;&emsp; |-->vite.svg<br>
   
-  &emsp;&emsp; |-->src<br>
-  &emsp;&emsp;&emsp; |-->assets<br>
-  &emsp;&emsp;&emsp;&esmp; |-->fecap_finance_logo.svg<br>
-  &emsp;&emsp;&emsp;&esmp; |-->react.svg<br>
-  
-  &emsp;&emsp;&emsp; |-->components<br>
-  &emsp;&emsp;&emsp;&esmp; |-->Carousel.jsx<br>
-  &emsp;&emsp;&emsp;&esmp; |-->Footer.jsx<br>
-  &emsp;&emsp;&emsp;&esmp; |-->Header.jsx<br>
-  &emsp;&emsp;&emsp;&esmp; |-->NavBar.jsx<br>
-  &emsp;&emsp;&emsp;&esmp; |-->NavBarFooter.jsx<br>
-  &emsp;&emsp;&emsp;&esmp; |-->VideoLoop.jsx<br>
+  &emsp;&emsp;|-->src<br>
+  &emsp;&emsp;&emsp;|-->assets<br>
+  &emsp;&emsp;&emsp;&esmp;|-->fecap_finance_logo.svg<br>
+  &emsp;&emsp;&emsp;&esmp;|-->react.svg<br>
+ 
+  &emsp;&emsp;&emsp;|-->components<br>
+  &emsp;&emsp;&emsp;&esmp;|-->Carousel.jsx<br>
+  &emsp;&emsp;&emsp;&esmp;|-->Footer.jsx<br>
+  &emsp;&emsp;&emsp;&esmp;|-->Header.jsx<br>
+  &emsp;&emsp;&emsp;&esmp;|-->NavBar.jsx<br>
+  &emsp;&emsp;&emsp;&esmp;|-->NavBarFooter.jsx<br>
+  &emsp;&emsp;&emsp;&esmp;|-->VideoLoop.jsx<br>
 
   &emsp;&emsp;&emsp; |-->imgs<br>
   &emsp;&emsp;&emsp;&esmp; |-->Finance-logo2 (1).png<br>
