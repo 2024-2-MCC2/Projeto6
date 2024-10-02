@@ -4,11 +4,11 @@
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
-# Nome do Projeto
+# Fecap finance
 
-## Nome do Grupo
+## Fecap Finance ( FPF )
 
-## Integrantes: <a href="https://github.com/R4cardo">Ricardo Liyudi</a>, <a href="https://github.com/brunosr9">Bruno Ribeiro</a>, <a href="https://github.com/Gume123">Guilherme Melo </a>, <a href="https://github.com/GabrielAugustoT800">Gabriel Augusto</a>, <a href="https://github.com/kauandotexe">Caua Rochas</a>
+## Integrantes: <a href="https://github.com/R4cardo">Ricardo Liyudi</a>, <a href="https://github.com/brunosr9">Bruno Ribeiro</a>, <a href="https://github.com/Gume123">Guilherme Melo </a>, <a href="https://github.com/GabrielAugustoT800">Gabriel Augusto</a>, <a href="https://github.com/kauandotexe">Kauan Rocha</a>
 
 ## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Saitama</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Strange</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Yoda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Gero</a>
 
