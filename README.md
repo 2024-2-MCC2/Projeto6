@@ -25,7 +25,8 @@ BANCO DE DADOS MySQL </a>
 PROTÓTIPO FEITO NO FIGMA </a></a>
 
 
-
+## Protótipo navegável no Figma
+https://www.figma.com/design/QRDsqKO15CaVWwQK9xZrTE/Prot%C3%B3tipo?node-id=137-2&t=vVLeFnpljLlZpsF4-1
 
 
 
