@@ -25,7 +25,8 @@ BANCO DE DADOS MySQL </a>
 PROTÓTIPO FEITO NO FIGMA </a></a>
 
 
-
+## Protótipo navegável no Figma
+https://www.figma.com/design/QRDsqKO15CaVWwQK9xZrTE/Prot%C3%B3tipo?node-id=137-2&t=vVLeFnpljLlZpsF4-1
 
 
 
@@ -62,24 +63,6 @@ Há também 4 pastas que seguem da seguinte forma:
 
 ## 🛠 Instalação
 
-<b>Android:</b>
-
-Faça o Download do JOGO.apk no seu celular.
-Execute o APK e siga as instruções de seu telefone.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
-<b>Windows:</b>
-
-Não há instalação! Apenas executável!
-Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
 <b>HTML:</b>
 
 Não há instalação!
@@ -100,10 +83,12 @@ Coloque código do prompt de comnando se for necessário
 ```
 
 ## 📋 Licença/License
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://www.fecap.br/">Fecap Finance </a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/company/fecap-finance/?originalSubdomain=br">Fecap Finance,Kauan Rocha,Ricardo Liyudi , Gabriel Augusto, Guilherme Melo , Bruno Ribeiro</a> is marked with <a href="https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC0 1.0 Universal<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/zero.svg?ref=chooser-v1" alt=""></a></p>
 
 
 ## 🎓 Referências
 
 Aqui estão as referências usadas no projeto.
 
-1.
+1.https://www.fgvfinance.com/
+2.https://www.infinanceinsper.com/
