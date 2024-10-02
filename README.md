@@ -22,7 +22,7 @@ BANCO DE DADOS MySQL </a>
 PROTÓTIPO FEITO NO FIGMA </a></a>
 
 ## Inspirações </a>
-A FECAP Finance buscava um site intuitivo de alto nível, buscavam um patamar próximo ao de Ligas Financeiras de Universidades de elite como o Insper e a FGV, sendo eles a InFinance e FGVFinance.
+A FECAP Finance buscava um site intuitivo de alto nível, buscavam um patamar próximo ao de Ligas Financeiras de Universidades de elite como o Insper e a FGV, sendo eles a InFinance e FGVFinance. </a>
 #Figma </a>
 Link para o protótipo:
 https://www.figma.com/design/QRDsqKO15CaVWwQK9xZrTE/Prot%C3%B3tipo?node-id=137-2&t=vVLeFnpljLlZpsF4-1
