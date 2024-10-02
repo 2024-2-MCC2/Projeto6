@@ -17,7 +17,8 @@
 ## Descrição
 
 <p align="center">
-<img src="https://ibb.co/5sQh87b" alt="Fecap Finance" border="0">
+ <a href="https://ibb.co/5sQh87b"><img src="https://i.ibb.co/1RCGqSF/Img-Readme-page-0001.jpg" alt="Img-Readme-page-0001" border="0"></a>
+<img src="" alt="Fecap Finance" border="0">
   Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
 </p>
 
