@@ -19,6 +19,10 @@
 <p align="center">
  <a href="https://ibb.co/5sQh87b"><img src="https://i.ibb.co/1RCGqSF/Img-Readme-page-0001.jpg" alt="Img-Readme-page-0001" border="0"></a>
  </p>
+ O Projeto Fecap Finance ( FPF ) tem como principal objetivo satisfazer um site para o financeiro da fecap 
+Programams com HTML , CSS , JAVASCRIPT, REACT, NODE.JS, EXPRESS.JS E BOOTSTRAP;
+BANCO DE DADOS MySQL </a>
+PROTÓTIPO FEITO NO FIGMA </a></a>
 
 
 
