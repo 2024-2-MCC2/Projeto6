@@ -54,24 +54,24 @@ https://www.figma.com/design/QRDsqKO15CaVWwQK9xZrTE/Prot%C3%B3tipo?node-id=137-2
   &emsp;&emsp;|-->Colocar os códigos do Backend Aqui.txt<br>
   
   &emsp;&emsp;|-->.vite/deps<br>
-  &emsp;&emsp;&emsp;|-->@babel_core.js<br>
-  &emsp;&emsp;&emsp;|-->@babel_core.js.map<br>
-  &emsp;&emsp;&emsp;|-->_metadata.json<br>
-  &emsp;&emsp;&emsp;|-->chunk-5WRI5ZAA.js<br>
-  &emsp;&emsp;&emsp;|-->chunk-5WRI5ZAA.js.map<br>
-  &emsp;&emsp;&emsp;|-->chunk-HCGKX5ED.js<br>
-  &emsp;&emsp;&emsp;|-->chunk-HCGKX5ED.js.map<br>
-  &emsp;&emsp;&emsp;|-->chunk-WNPTCGAH.js<br>
-  &emsp;&emsp;&emsp;|-->chunk-WNPTCGAH.js.map<br>
-  &emsp;&emsp;&emsp;|-->package.json<br>
-  &emsp;&emsp;&emsp;|-->react-dom_client.js<br>
-  &emsp;&emsp;&emsp;|-->react-dom_client.js.map<br>
-  &emsp;&emsp;&emsp;|-->react-router-dom.js<br>
-  &emsp;&emsp;&emsp;|-->react-router-dom.js.map<br>
-  &emsp;&emsp;&emsp;|-->react.js<br>
-  &emsp;&emsp;&emsp;|-->react.js.map<br>
-  &emsp;&emsp;&emsp;|-->styled-components.js<br>
-  &emsp;&emsp;&emsp;|-->styled-components.js.map<br>
+  &emsp;&emsp;&emsp; |-->@babel_core.js<br>
+  &emsp;&emsp;&emsp; |-->@babel_core.js.map<br>
+  &emsp;&emsp;&emsp; |-->_metadata.json<br>
+  &emsp;&emsp;&emsp; |-->chunk-5WRI5ZAA.js<br>
+  &emsp;&emsp;&emsp; |-->chunk-5WRI5ZAA.js.map<br>
+  &emsp;&emsp;&emsp; |-->chunk-HCGKX5ED.js<br>
+  &emsp;&emsp;&emsp; |-->chunk-HCGKX5ED.js.map<br>
+  &emsp;&emsp;&emsp; |-->chunk-WNPTCGAH.js<br>
+  &emsp;&emsp;&emsp; |-->chunk-WNPTCGAH.js.map<br>
+  &emsp;&emsp;&emsp; |-->package.json<br>
+  &emsp;&emsp;&emsp; |-->react-dom_client.js<br>
+  &emsp;&emsp;&emsp; |-->react-dom_client.js.map<br>
+  &emsp;&emsp;&emsp; |-->react-router-dom.js<br>
+  &emsp;&emsp;&emsp; |-->react-router-dom.js.map<br>
+  &emsp;&emsp;&emsp; |-->react.js<br>
+  &emsp;&emsp;&emsp; |-->react.js.map<br>
+  &emsp;&emsp;&emsp; |-->styled-components.js<br>
+  &emsp;&emsp;&emsp; |-->styled-components.js.map<br>
                      
   &emsp;&emsp;|-->public<br>
   &emsp;&emsp;&emsp;|-->vite.svg<br>
