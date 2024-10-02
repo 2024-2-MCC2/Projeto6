@@ -22,7 +22,7 @@ function home() {
 
             </Section>
             <Section>
-                <H2Section>Ação</H2Section>
+                <H2Section>Visão</H2Section>
                 <HorizontalLine/>
                 <PSection> Desenvolver os integrantes através do estudo e do pensamento crítico.</PSection>
             </Section>
@@ -71,11 +71,10 @@ const HorizontalLine = styled.hr`
 `
 const HorizontalLineProjetos = styled.hr`
   border-color: #15794f; /* Change the color to a blue shade */
-  max-width:35em;
+  max-width:40em;
 
 `
 const Section = styled.section`
-    /* background-color: #f3ebeb; */
     flex: 1;
     
     margin-inline: 6em;
@@ -111,14 +110,12 @@ const Projetos = styled.div`
 
 `
 const TextProjeto = styled.p`
-    margin-left: auto;
-    text-align: justify;
-    font-family: Merriweather;
-    width: 25em;
-    font-size:  1.2em;
-
-
-`
+  text-align: center;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 1.2em;
+  margin: 0 5em;
+`;
 const H1 = styled.h1`
     text-align: center;
     font-family: Montserrat;
