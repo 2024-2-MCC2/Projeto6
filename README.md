@@ -18,9 +18,9 @@
 
 <p align="center">
  <a href="https://ibb.co/5sQh87b"><img src="https://i.ibb.co/1RCGqSF/Img-Readme-page-0001.jpg" alt="Img-Readme-page-0001" border="0"></a>
+ </p>
 
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a 
-</p>
+
 
 
 De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
