@@ -10,7 +10,9 @@
 
 ## Integrantes: <a href="https://github.com/R4cardo">Ricardo Liyudi</a>, <a href="https://github.com/brunosr9">Bruno Ribeiro</a>, <a href="https://github.com/Gume123">Guilherme Melo </a>, <a href="https://github.com/GabrielAugustoT800">Gabriel Augusto</a>, <a href="https://github.com/kauandotexe">Kauan Rocha</a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Saitama</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Strange</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Yoda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Gero</a>
+## Professores Orientadores: <a href="https://www.linkedin.com/in/dolemes/">Prof. David De Oliveira Lemes</a>, <a href="">Prof. Francisco de Souza Escobar</a>, <a href="">Profª. Katia Milani Lara Bossi
+</a>
+
 
 ## Descrição
 
