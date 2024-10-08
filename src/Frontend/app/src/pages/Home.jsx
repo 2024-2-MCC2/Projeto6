@@ -4,7 +4,7 @@ import Footer  from '../components/Footer';
 import Carousel from '../components/Carousel';
 import styled from "styled-components";
 import imgProjetos from '../imgs/imgProjetos.jpg';
-import VideoLoop from '../components/VideoLoop';
+import Video from '../components/video'
 
 
 
@@ -12,7 +12,8 @@ function home() {
   return (
     <div className="container">
         <Header />
-        <Carousel />
+        <Video />
+        {/* <Carousel /> */}
         {/* <VideoLoop/> */}
         <SectionContainer>
             <Section>
@@ -114,7 +115,7 @@ const TextProjeto = styled.p`
   text-align: justify;
   font-family: Roboto;
   font-size: 1.2em;
-  margin: 0 5em;
+  margin: 0.5em;
 `;
 const H1 = styled.h1`
     text-align: center;
