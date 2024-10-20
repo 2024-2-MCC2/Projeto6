@@ -13,6 +13,8 @@ function home() {
     <div className="container">
         <Header />
         <Video />
+        {/* <Carousel /> */}
+        {/* <VideoLoop/> */}
         <SectionContainer>
             <Section1>
                 <H2Section>Missão</H2Section>

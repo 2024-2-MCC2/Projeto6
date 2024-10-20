@@ -61,7 +61,7 @@ export default function Equipe() {
       <div className='quemsomos'>
             <H1equipe>Quem somos</H1equipe>
             <HorizontalLine/>
-          </div>
+        </div>
             <Sectionquemsomos>
               <P>
               "A vida é uma jornada de aprendizado contínuo, e aqueles que abraçam a educação incessante são os que realmente prosperam no mercado financeiro." – Jamie Dimon, CEO do JPMorgan Chase
@@ -87,7 +87,10 @@ export default function Equipe() {
               </Pvalores>
             </Section>
           </SectionEquipe>
+
       <Footer />
+
+        <Footer/>
     </div>
   );
 }
