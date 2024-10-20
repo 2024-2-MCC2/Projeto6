@@ -89,8 +89,6 @@ export default function Equipe() {
           </SectionEquipe>
 
       <Footer />
-
-        <Footer/>
     </div>
   );
 }

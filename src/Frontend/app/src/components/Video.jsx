@@ -15,11 +15,12 @@ function video(){
 }
 
 const Jacare = styled.video`
-  width: 100%;         
+width: 100%;         
   height: auto;        
   max-height: 80vh;    
   object-fit: cover;   
   align-items: center;
+
 `
 
 const Texto = styled.h1`

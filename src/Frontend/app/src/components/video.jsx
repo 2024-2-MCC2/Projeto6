@@ -15,8 +15,11 @@ function video(){
 }
 
 const Jacare = styled.video`
-max-width:1343px;
-align-items: center;
+width: 100%;         
+  height: auto;        
+  max-height: 80vh;    
+  object-fit: cover;   
+  align-items: center;
 
 `
 
