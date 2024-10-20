@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import Footer  from '../components/Footer';
 import Carousel from '../components/Carousel';
 import styled from "styled-components";
+import Video3 from '../components/video'
 
 const H1atv = styled.h1`
   text-align: center;
@@ -42,7 +43,8 @@ function Atividades() {
   return (
     <div className="container">
         <Header />
-        <Carousel />
+        {/* <Carousel /> */}
+        <Video3/>
         <div className='atividades'>
           <H1atv>Nossa lista de atividades</H1atv>
           <HorizontalLine/>

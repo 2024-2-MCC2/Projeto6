@@ -3,6 +3,8 @@ import Header from '../components/Header';
 import Footer  from '../components/Footer';
 import Carousel from '../components/Carousel';
 import styled from "styled-components";
+import Video2 from '../components/video2'
+import Mapa from '../components/Mapa'
 
 
 
@@ -10,96 +12,49 @@ function Contato() {
     return(
       <>
           <Container>
-          <Header />
-          <Carousel />
-          <H2>Entre em contato conosco</H2>
+            <Header />
+            <Video2/>
+            <ContatoContainer>
+              <div className="contato text">
+                <H2>Contato</H2>
+                <H4>Localização</H4>
+                <P>Av. da Liberdade, 532 - Liberdade, São Paulo - SP, 01502-001</P>
+                <P>Entre em contato para marcar reuniões  </P>
+                <H4>fecap.finance@edu.fecap.br</H4>
+                <H4>(11)99587-2178</H4>
+              </div>
+              <div className="map">
+                <Mapa/>
+            </div>
+            </ContatoContainer>
 
-          <Container>
-            
-            <FormGroup>
-              <Label>Nome</Label>
-              <Input type="text" placeholder="Name" />
-            </FormGroup>
-            <FormGroup>
-              <Label>E-mail</Label> 
-              <Input type="email" placeholder="Email" />
-            </FormGroup>
-            <FormGroup>
-              <Label>Telefone</Label> 
-              <Input type="tel" placeholder="(11)11111-1111" />
-            </FormGroup>
-            <FormGroup>
-              <Label>Mensagem</Label>
-              <TextArea type="text" placeholder="Message" /> 
-              <Button>Enviar</Button>
-            </FormGroup>
-
+            <Footer/>
           </Container>
-
-          <Footer/>
-        </Container>
       </>
   );
 }
 
 export default Contato;
 
-const H2 = styled.h2`
-  font-size: 2rem;
-  text-align: center;
-  
-`
-const FormGroup = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items:center;
-  
-`;
-
-const Label = styled.label`
-
-  display: block;
-  margin: 10px;
-  font-weight: bold;
-`;
-
-const Input = styled.input`
-width: 30em;
-  height: 40px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 20px;
-  box-sizing: border-box;
-`;
-
-const TextArea = styled.textarea`
-width: 30em;
-  height: 100px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 20px;
-  box-sizing: border-box;
-  resize: none;
-`;
-
-const Button = styled.button`
-  width: 8em;
-  height: 40px;
-  background-color: #4CAF50;
-  color: #fff;
-  padding: 10px;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  margin-bottom: 1em;
-  &:hover{
-    background-color: #419a44;
-    transition: background-color 0.3s ease-in-out;
-  }
-`;
 const Container = styled.div`
   background-color: #f9f9f9;
-
-  
 `;
+
+const ContatoContainer = styled.div`
+  display: flex;
+  justify-content: space-around;
+`
+const H2 = styled.h2`
+  font-family: Montserrat;
+  font-size:2em;
+  align-self:center;
+`
+const H4 = styled.h4`
+  font-family: Montserrat;
+  font-size:1.2em;
+`
+const P = styled.p`
+  font-family: Roboto;
+  font-size:1em;
+`
+
