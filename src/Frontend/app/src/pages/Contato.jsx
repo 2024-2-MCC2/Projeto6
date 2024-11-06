@@ -18,7 +18,7 @@ function Contato() {
               <div className="contato text">
                 <H2>Contato</H2>
                 <H4>Localização</H4>
-                <P>Av. da Liberdade, 532 - Liberdade, São Paulo - SP, 01502-001</P>
+                <P> <A href='https://www.google.com.br/maps/place/FECAP+-+Fundação+Escola+de+Comércio+Álvares+Penteado+-+Campus+Liberdade/@-23.5572348,-46.6395381,17z/data=!4m6!3m5!1s0x94ce59a8b4d648f9:0x862df06cefe8bc3e!8m2!3d-23.5572348!4d-46.6369578!16s%2Fg%2F122xff09?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D' target="_blank" rel="noopener noreferrer">Av. da Liberdade, 532 - Liberdade, São Paulo - SP, 01502-001</A></P>
                 <P>Entre em contato para marcar reuniões  </P>
                 <H4>fecap.finance@edu.fecap.br</H4>
                 <H4>(11)99587-2178</H4>
@@ -56,5 +56,14 @@ const H4 = styled.h4`
 const P = styled.p`
   font-family: Roboto;
   font-size:1em;
+`
+const A  = styled.a`
+  color:  #000000;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+
+  &:hover{
+    color: #233f52;
+  }
 `
 

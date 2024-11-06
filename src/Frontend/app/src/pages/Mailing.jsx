@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../components/Header';
 import Footer  from '../components/Footer';
-import Video from '../components/Video2';
+import Video from '../components/Video4';
 import styled from "styled-components";
 
 
@@ -29,8 +29,7 @@ export default function Mailing(){
                 <Input type="tel" placeholder="(11)11111-1111" />
               </FormGroup>
               <FormGroup>
-                <Label>Mensagem</Label>
-                <TextArea type="text" placeholder="Message" /> 
+              
                 <Button>Enviar</Button>
               </FormGroup>
   
@@ -67,7 +66,7 @@ width: 30em;
   height: 40px;
   padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 20px;
+  border-radius: 10px;
   box-sizing: border-box;
 `;
 
@@ -91,6 +90,7 @@ const Button = styled.button`
   border-radius: 20px;
   cursor: pointer;
   margin-bottom: 1em;
+  margin-top: 0.5em;
   &:hover{
     background-color: #419a44;
     transition: background-color 0.3s ease-in-out;

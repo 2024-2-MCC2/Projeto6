@@ -15,12 +15,12 @@ function NavBar() {
     return (
         
         <NavBarContainer>
-            <Menu onClick={handleClick1}>Home</Menu>
-            <Menu onClick={handleClick2}>Projetos</Menu>
-            <Menu onClick={handleClick3}>Atividades</Menu>
-            <Menu onClick={handleClick4}>Equipe</Menu>
-            <Menu onClick={handleClick5}>Contato</Menu>
-            <Menu onClick={handleClick6}>Mailing</Menu> 
+            <Menu onClick={handleClick1} href="#top">Home</Menu>
+            <Menu onClick={handleClick2} href="#top">Projetos</Menu>
+            <Menu onClick={handleClick3} href="#top">Atividades</Menu>
+            <Menu onClick={handleClick4} href="#top">Equipe</Menu>
+            <Menu onClick={handleClick5} href="#top">Contato</Menu>
+            <Menu onClick={handleClick6} href="#top">Mailing</Menu> 
         </NavBarContainer>
     );
 }
@@ -46,6 +46,8 @@ const Menu = styled.a`
     transition: opacity 0.3s ease-in-out; /* Adicionei essa linha */
     margin-bottom: 20px;
     font-weight: bold;
+    color: #fff;
+    text-decoration: none;
     }
 
     &:hover{

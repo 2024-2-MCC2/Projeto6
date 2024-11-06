@@ -1,7 +1,8 @@
 import React from 'react'
 import NavBar from './NavBar'
 import styled from "styled-components";
-import logo  from '../imgs/LogoLogo.png';
+import logo  from '../imgs/LogoFecapFinanceOriginal.png';
+import { useNavigate } from 'react-router-dom';
 
 // import logoFecap from '../imgs/logoFecapImg.png';
 
@@ -16,24 +17,27 @@ const HeaderContainer = styled.header`
     font-weight: bold;
     padding: 20px;
     .IMGLogo{
-      max-width: 250px;
-      max-height: 250px;
+      max-width: 300px; //Logo horizontal 300px; Logo vertical 100px
+      max-height: 300px; //Logo horizontal 300px; Logo vertical 100px
       margin-left: 40px;
       transition: all 0.5s ease-in-out;
     }
-    .IMGLogo:hover{
-      max-width: 255px;
-      max-height: 255px;
+    &:hover{
+      cursor:  pointer;
     }
-
 
 `
 
 function Header() {
+
+  const navigate = useNavigate();
+  const handleClick1 = () => { navigate('/') }; //tem que ta dentro de uma função
+
+
   return (
     <HeaderContainer className="container">
         <div className="Logo">
-            <img className="IMGLogo"src={logo}  alt="Logo Fecap Finance" />
+            <img className="IMGLogo"src={logo}  alt="Logo Fecap Finance" onClick={handleClick1} />
             </div>
         <NavBar/>
     </HeaderContainer>

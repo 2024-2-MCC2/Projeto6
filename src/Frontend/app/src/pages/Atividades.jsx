@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../components/Header';
 import Footer  from '../components/Footer';
-import Carousel from '../components/Carousel';
+import Swiper from '../components/Swiper';
 import styled from "styled-components";
 import Video3 from '../components/video'
 
@@ -39,13 +39,15 @@ const Psection= styled.p`
   font-family: Montserrat;
 `
 
+const SwiperContainer = styled.div`
+`
+
 function Atividades() {
   return (
     <div className="container">
-        <Header />
-        {/* <Carousel /> */}
+        <Header />      
         <Video3/>
-        <div className='atividades'>
+        {/* <div className='atividades'>
           <H1atv>Nossa lista de atividades</H1atv>
           <HorizontalLine/>
         </div>
@@ -67,10 +69,14 @@ function Atividades() {
             <Psection>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat cum temporibus delectus, ratione quasi, quia doloremque laudantium, autem ullam obcaecati natus excepturi tenetur quam ipsa voluptatem voluptate quo cumque suscipit?</Psection>
           </Section>
         </SectionAtv>
-        <HorizontalLine/>
+        <HorizontalLine/> */}
+        
         <div className='AtivadesFooter'>
           <H1atv>Para novos eventos acesse nossa agenda</H1atv>
-          <HorizontalLine/>
+          <SwiperContainer>
+            <Swiper/>
+          </SwiperContainer>
+          {/* <HorizontalLine/> */}
         </div>
      
         

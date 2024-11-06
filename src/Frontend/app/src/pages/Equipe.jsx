@@ -26,32 +26,35 @@ import Membro18 from '../imgs/group/rafaelRocha.jpg'
 import Membro19 from '../imgs/group/rodrigoArgolo.jpg'
 import Membro20 from '../imgs/group/thiagoFlorido.jpg'
 import Membro21 from '../imgs/group/victorNunes.jpg'
+import Membro22 from '../imgs/group/petraGarcia.jpg'
 
 export default function Equipe() {
   const navigate = useNavigate();
   const membroData = [
-    {id:1, src: Membro1,nome:"Ana Barreto", content: "blablabla"},
-    {id:2, src: Membro2,nome:"Brenno Augusto", content: "blablabla"},
-    {id:3, src: Membro3,nome:"Caio Chaves", content: "blablabla"},
-    {id:4, src: Membro4,nome:"Gabriel Nunes", content: "blablabla"},
-    {id:5, src: Membro5,nome:"Isaac Silva", content: "blablabla"},
-    {id:6, src: Membro6,nome:"Isabelle Luca", content: "blablabla"},
-    {id:7, src: Membro7,nome:"Isabelle Texeira", content: "blablabla"},
-    {id:8, src: Membro8,nome:"Ítalo Alencar", content: "blablabla"},
-    {id:9, src: Membro9,nome:"João Cardoso", content: "blablabla"},
-    {id:10, src:Membro10, nome:"João Castilho", content: "blablabla"},
-    {id:11, src:Membro11, nome:"João Grassi", content: "blablabla"},
-    {id:12, src:Membro12, nome:"João Kozseran", content: "blablabla"},
-    {id:13, src:Membro13, nome:"Jorge Pardim", content: "blablabla"},
-    {id:14, src:Membro14, nome:"Leonardo Pestana", content: "blablabla"},
-    {id:15, src:Membro15, nome:"Luis Filho", content: "blablabla"},
-    {id:16, src:Membro16, nome:"Luiza Manta", content: "blablabla"},
-    {id:17, src:Membro17, nome:"Micael Ortis", content: "blablabla"},
-    {id:18, src:Membro18, nome:"Rafael Rocha", content: "blablabla"},
-    {id:19, src:Membro19, nome:"Rodrigo Argolo", content: "blablabla"},
-    {id:20, src:Membro20, nome:"Thiago Florido", content: "blablabla"},
-    {id:21, src:Membro21, nome:"Victor Nunes", content: "blablabla"},
-  ];
+    { id: 14, src: Membro14, nome: "Leonardo Pestana", content: "Presidente" },
+    { id: 22, src: Membro22, nome: "Petra Garcia", content: "Vice-Presidente" },
+    { id: 1, src: Membro1, nome: "Ana Barreto", content: "membro" },
+    { id: 2, src: Membro2, nome: "Brenno Augusto", content: "membro" },
+    { id: 3, src: Membro3, nome: "Caio Chaves", content: "membro" },
+    { id: 4, src: Membro4, nome: "Gabriel Nunes", content: "membro" },
+    { id: 5, src: Membro5, nome: "Isaac Silva", content: "membro" },
+    { id: 6, src: Membro6, nome: "Isabelle Luca", content: "membro" },
+    { id: 7, src: Membro7, nome: "Isabelle Texeira", content: "membro" },
+    { id: 8, src: Membro8, nome: "Ítalo Alencar", content: "membro" },
+    { id: 9, src: Membro9, nome: "João Cardoso", content: "membro" },
+    { id: 10, src: Membro10, nome: "João Castilho", content: "membro" },
+    { id: 11, src: Membro11, nome: "João Grassi", content: "membro" },
+    { id: 12, src: Membro12, nome: "João Kozseran", content: "membro" },
+    { id: 13, src: Membro13, nome: "Jorge Pardim", content: "membro" },
+    { id: 15, src: Membro15, nome: "Luis Filho", content: "membro" },
+    { id: 16, src: Membro16, nome: "Luiza Manta", content: "membro" },
+    { id: 17, src: Membro17, nome: "Micael Ortis", content: "membro" },
+    { id: 18, src: Membro18, nome: "Rafael Rocha", content: "membro" },
+    { id: 19, src: Membro19, nome: "Rodrigo Argolo", content: "membro" },
+    { id: 20, src: Membro20, nome: "Thiago Florido", content: "membro" },
+    { id: 21, src: Membro21, nome: "Victor Nunes", content: "membro" }
+];
+
 
   return (
     <div>

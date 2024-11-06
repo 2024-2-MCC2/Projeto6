@@ -22,6 +22,8 @@ import Membro18 from '../imgs/group/rafaelRocha.jpg'
 import Membro19 from '../imgs/group/rodrigoArgolo.jpg'
 import Membro20 from '../imgs/group/thiagoFlorido.jpg'
 import Membro21 from '../imgs/group/victorNunes.jpg'
+import Membro22 from '../imgs/group/petraGarcia.jpg'
+
 
 
 export default function BioContent() {
@@ -31,28 +33,30 @@ export default function BioContent() {
 
   useEffect(() => {
     const mockData = [
-        { id: '1', nome: 'Ana Barreto', texto: 'Assistente do gerente regional...', foto: Membro1 },
-        { id: '2', nome: 'Brenno Augusto', texto: 'Gerente regional da filial...', foto: Membro2 },
-        { id: '3', nome: 'Caio Chaves', texto: 'Um dos vendedores da Dunder Mifflin...', foto: Membro3 },
-        { id: '4', nome: 'Gabriel Nunes', texto: 'Recepcionista da Dunder Mifflin...', foto: Membro4 },
-        { id: '5', nome: 'Isaac Silva', texto: 'Contadora. Rígida e séria...', foto: Membro5 },
-        { id: '6', nome: 'Isabelle Luca', texto: 'Ela é um tipo quieto...', foto: Membro6 },
-        { id: '7', nome: 'Isabelle Texeira', texto: 'Funcionário sério...', foto: Membro7 },
-        { id: '8', nome: 'Ítalo Alencar', texto: 'Chega à Dunder Mifflin...', foto: Membro8 },
-        { id: '9', nome: 'João Cardoso', texto: 'Estagiário e estudante de administração.', foto: Membro9 },
-        { id: '10', nome: 'João Castilho', texto: 'Assistente do gerente regional...', foto: Membro10 },
-        { id: '11', nome: 'João Grassi', texto: 'Gerente regional da filial...', foto: Membro11 },
-        { id: '12', nome: 'João Kozseran', texto: 'Um dos vendedores da Dunder Mifflin...', foto: Membro12 },
-        { id: '13', nome: 'Jorge Pardim', texto: 'Recepcionista da Dunder Mifflin...', foto: Membro13 },
-        { id: '14', nome: 'Leonardo Pestana', texto: 'Contadora. Rígida e séria...', foto: Membro14 },
-        { id: '15', nome: 'Luis Filho', texto: 'Ela é um tipo quieto...', foto: Membro15 },
-        { id: '16', nome: 'Luiza Manta', texto: 'Funcionário sério...', foto: Membro16 },
-        { id: '17', nome: 'Micael Ortis', texto: 'Chega à Dunder Mifflin...', foto: Membro17 },
-        { id: '18', nome: 'Rafael Rocha', texto: 'Estagiário e estudante de administração.', foto: Membro18 },
-        { id: '19', nome: 'Rodrigo Argolo', texto: 'Funcionário sério...', foto: Membro19 },
-        { id: '20', nome: 'Thiago Florido', texto: 'Chega à Dunder Mifflin...', foto: Membro20 },
-        { id: '21', nome: 'Victor Nunes', texto: 'Estagiário e estudante de administração.', foto: Membro21 }
-    ];
+      { id: '14', nome: 'Leonardo Pestana', texto: 'Contadora. Rígida e séria...', foto: Membro14 },
+      { id: '22', nome: 'Petra Garcia', texto: 'Assistente', foto: Membro22 },
+      { id: '1', nome: 'Ana Barreto', texto: 'Assistente do gerente regional...', foto: Membro1 },
+      { id: '2', nome: 'Brenno Augusto', texto: 'Gerente regional da filial...', foto: Membro2 },
+      { id: '3', nome: 'Caio Chaves', texto: 'Um dos vendedores da Dunder Mifflin...', foto: Membro3 },
+      { id: '4', nome: 'Gabriel Nunes', texto: 'Recepcionista da Dunder Mifflin...', foto: Membro4 },
+      { id: '5', nome: 'Isaac Silva', texto: 'Contadora. Rígida e séria...', foto: Membro5 },
+      { id: '6', nome: 'Isabelle Luca', texto: 'Ela é um tipo quieto...', foto: Membro6 },
+      { id: '7', nome: 'Isabelle Texeira', texto: 'Funcionário sério...', foto: Membro7 },
+      { id: '8', nome: 'Ítalo Alencar', texto: 'Chega à Dunder Mifflin...', foto: Membro8 },
+      { id: '9', nome: 'João Cardoso', texto: 'Estagiário e estudante de administração.', foto: Membro9 },
+      { id: '10', nome: 'João Castilho', texto: 'Assistente do gerente regional...', foto: Membro10 },
+      { id: '11', nome: 'João Grassi', texto: 'Gerente regional da filial...', foto: Membro11 },
+      { id: '12', nome: 'João Kozseran', texto: 'Um dos vendedores da Dunder Mifflin...', foto: Membro12 },
+      { id: '13', nome: 'Jorge Pardim', texto: 'Recepcionista da Dunder Mifflin...', foto: Membro13 },
+      { id: '15', nome: 'Luis Filho', texto: 'Ela é um tipo quieto...', foto: Membro15 },
+      { id: '16', nome: 'Luiza Manta', texto: 'Funcionário sério...', foto: Membro16 },
+      { id: '17', nome: 'Micael Ortis', texto: 'Chega à Dunder Mifflin...', foto: Membro17 },
+      { id: '18', nome: 'Rafael Rocha', texto: 'Estagiário e estudante de administração.', foto: Membro18 },
+      { id: '19', nome: 'Rodrigo Argolo', texto: 'Funcionário sério...', foto: Membro19 },
+      { id: '20', nome: 'Thiago Florido', texto: 'Chega à Dunder Mifflin...', foto: Membro20 },
+      { id: '21', nome: 'Victor Nunes', texto: 'Estagiário e estudante de administração.', foto: Membro21 }
+  ];
+  
     const fetchedMembro = mockData.find(char => char.id === id);
     setMembros(fetchedMembro);
   }, [id]);
@@ -108,7 +112,7 @@ const Image = styled.img`
   border-radius: 10px;
 `;
 
-const TextContainer = styled.div`
+const TextContainer = styled.a`
   display: flex;
   flex-direction: column;
   justify-content: space-between;

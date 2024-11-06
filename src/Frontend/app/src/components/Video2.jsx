@@ -1,5 +1,5 @@
 import videoJacare from '../imgs/ny2.mp4';
-import imgTest from '../imgs/LogoLogo.png';
+import imgTest from '../imgs/LogoFecapFinanceOriginal2.png';
 import styled from "styled-components";
 
 function video(){
@@ -38,13 +38,13 @@ const Intro = styled.div`
 
 const Logo = styled.img`
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: #fff;
-  max-width: 350px;
-  max-height: 350px;
+  max-width: 25%;
+  max-height: 25%;
   transition: all 0.3s ease-in-out;
 
   *:hover{
