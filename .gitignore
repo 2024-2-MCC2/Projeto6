@@ -348,3 +348,7 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# Arquivos confidenciais
+src/Backend/.env
+src/Backend/config.php

@@ -1,6 +1,19 @@
 import React from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
+import L from 'leaflet';
+import markerIconPng from 'leaflet/dist/images/marker-icon.png';
+import markerShadowPng from 'leaflet/dist/images/marker-shadow.png';
+
+// Corrige o ícone do marcador
+const customIcon = new L.Icon({
+  iconUrl: markerIconPng,
+  iconSize: [25, 41], // Tamanho do ícone
+  iconAnchor: [12, 41], // Posição do "ponto" do marcador
+  popupAnchor: [1, -34], // Posição do popup em relação ao marcador
+  shadowUrl: markerShadowPng,
+  shadowSize: [41, 41], // Tamanho da sombra
+});
 
 function MapaFecap() {
   // Coordenadas da FECAP Liberdade
@@ -17,7 +30,7 @@ function MapaFecap() {
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       />
       {/* Marcador no local da FECAP */}
-      <Marker position={fecapPosition}>
+      <Marker position={fecapPosition} icon={customIcon}>
         <Popup>
           FECAP Liberdade <br /> São Paulo - SP.
         </Popup>

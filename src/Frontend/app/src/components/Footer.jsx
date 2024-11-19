@@ -10,69 +10,76 @@ import EmailLink from './EmailLink';
 import { useNavigate } from 'react-router-dom';
 
 const FooterContainer = styled.footer`
-  display: flex;
-  background-color: #017033;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-  margin-top: 10px;
-  align-items: center;
- justify-content: space-around; 
+ display: flex;
+ background-color: #017033;
+ color: #fff;
+ padding: 20px;
+ text-align: center;
+ margin-top: 10px;
+ align-items: center;
+justify-content: space-evenly; 
+
+  /* Adapt to different screen sizes using flexbox */
+  @media (max-width: 768px) {
+    flex-direction: column; /* Stack elements vertically on small screens */
+    padding: 10px; /* Adjust padding for smaller layouts */
+  }
+  @media (max-width: 850px) {
+    flex-direction: column; /* Stack elements vertically on small screens */
+    padding: 10px; /* Adjust padding for smaller layouts */
+  }
 `;
 
 const FooterText1 = styled.p`
   margin-top: 3em;
+  text-align: center; /* Center text on all screens */
+  @media (max-width: 768px) {
+    margin-top: 2em;
+    font-size: 0.7em
+  }
 `;
 
-const FooterText2 = styled.p`
-  margin-bottom: 10px;
-  /* margin-left: 50px; */
+
+
+
+const ImgLogo = styled.img`
+  width: 100%; 
+  max-width: 350px; 
+  margin: 10px auto; 
+  @media (max-width: 768px) {
+    margin-top: 1.5em;
+  }
+  `
+
+const NavBar = styled.p`
+
 `;
 
-const FooterLink = styled.a`
-  color: #fff;
+const HorizontalLine = styled.hr`
+  border-color: #fff;
+  border: 1.5px solid;
+  margin: 1em 0;
+  --lnw: 3px;
+`;
+
+const A = styled.a`
+  margin-left: 0.8em;
+  color: #f5f5f5;
+  transition: all 0.3s ease-in-out;
   text-decoration: none;
-  transition: color 0.2s ease;
 
   &:hover {
     color: #ccc;
   }
 `;
 
-const ImgLogo = styled.img`
-  margin-top: 10px;
-  display: flex;
-  max-width: 350px;
-  max-height: 350px;
-  margin-left: auto;
-`;
-
-const NavBar = styled.p`
-  margin-right: 100px;
-  /* font-size: 300px; */
-`
-
-const HorizontalLine = styled.hr`
-  border-color: #fff; 
-  border: 1.5px solid;
-  margin : 1em 0;
-  --lnw: 3px;
-`
-const A  = styled.a`
-  margin-left:0.8em;
-  color:  #f5f5f5;
-  transition: all 0.3s ease-in-out;
-  text-decoration: none;
-
-  &:hover{
-    color: #ccc;
-  }
-`
 const Logo = styled.div`
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
-`
+  /* Adjust alignment on smaller screens (optional) */
+  align-items: center; /* Center content within the logo section */
+`;
 
 
 const Footer = () => {
@@ -82,8 +89,7 @@ const Footer = () => {
       <Logo>
         <ImgLogo className="IMGLogo"src={logo} alt="Logo Fecap Finance" />
         <FooterText1>© 2024 Fecap Finance - Todos os direitos reservados</FooterText1>
-      <FooterText2>
-      </FooterText2>
+      
       </Logo>
       <NavBar>
         <HorizontalLine/>

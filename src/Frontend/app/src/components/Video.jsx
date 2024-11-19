@@ -1,12 +1,13 @@
-import videoJacare from '../imgs/ny4k.mp4';
+import videoJacare from '../imgs/1ny2.mp4';
 import imgTest from '../imgs/LogoFecapFinanceOriginal2.png';
 import styled from "styled-components";
 
-function video(){
+
+
+export default function video(){
     return(
         <Intro>
-        <Texto></Texto>
-        <Logo src={imgTest} alt="" />
+        {/* <Logo src={imgTest} alt="" /> */}
         <Jacare src={videoJacare} poster={imgTest}  loop autoplay="true" muted playsInline preload disablePictureInPicture>
             Seu navegador não suporta o elemento de vídeo.
         </Jacare>
@@ -30,28 +31,22 @@ const Texto = styled.h1`
   transform: translate(-50%, -50%);
   text-align: center;
   color: #fff;
-  z-index: -1; // Garante que o texto fique acima do vídeo
 `
 
 const Intro = styled.div`
     text-align: center;
     align-items: center;
+    position: relative;
 `
 
 const Logo = styled.img`
-  position: absolute;
-  top: 55%;
+  position: fixed; 
+  top: 50%; 
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); 
   text-align: center;
   color: #fff;
   max-width: 25%;
   max-height: 25%;
   transition: all 0.3s ease-in-out;
-
-  *:hover{
-    transform: scale(1.1);
-  }
 `
-
-export default video;

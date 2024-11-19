@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Header from '../components/Header';
+import Header from '../Components/Header';
 import Footer  from '../components/Footer';
 import Carousel from '../components/Carousel';
 import styled from "styled-components";
@@ -54,11 +54,13 @@ function home() {
   )
 }
 const SectionContainer = styled.section`
-    display: flex;
-    flex-direction:  row;
-    
-
-`
+  display: flex;
+  flex-direction: row;
+  @media (max-width: 768px) {
+    flex-direction: column; /* Stack sections vertically on small screens */
+    margin: 0 auto; /* Center content horizontally */
+  }
+`;
 const HorizontalLine = styled.hr`
   border-color: #15794f; /* Change the color to a blue shade */
 
@@ -71,14 +73,19 @@ const Section1 = styled.section`
     flex: 1;
     margin-inline: 6em;
     padding: 0.5em;
-    width:  30em;
+    @media (max-width: 768px) {
+        margin-inline: 1em;
+  }
+    
 `
 const Section2 = styled.section`
     flex: 1;
     margin-inline: 6em;
     padding: 0.5em;
-    width:  30em;
     background-color: #fff;
+    @media (max-width: 768px) {
+        margin-inline: 1em;
+  }
 `
 const PValores =  styled.p`
     text-align: center;

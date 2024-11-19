@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Footer  from '../components/Footer';
 import Swiper from '../components/Swiper';
 import styled from "styled-components";
-import Video3 from '../components/video'
+import Video3 from '../components/video3'
 
 const H1atv = styled.h1`
   text-align: center;
@@ -47,7 +47,24 @@ function Atividades() {
     <div className="container">
         <Header />      
         <Video3/>
-        {/* <div className='atividades'>
+        
+        <div className='AtivadesFooter'>
+          <H1atv>Para novos eventos acesse nossa agenda</H1atv>
+          <SwiperContainer>
+            <Swiper/>
+          </SwiperContainer>
+          {/* <HorizontalLine/> */}
+        </div>
+     
+        
+        <Footer/>
+    </div>
+  )
+}
+
+export default Atividades
+
+{/* <div className='atividades'>
           <H1atv>Nossa lista de atividades</H1atv>
           <HorizontalLine/>
         </div>
@@ -70,19 +87,3 @@ function Atividades() {
           </Section>
         </SectionAtv>
         <HorizontalLine/> */}
-        
-        <div className='AtivadesFooter'>
-          <H1atv>Para novos eventos acesse nossa agenda</H1atv>
-          <SwiperContainer>
-            <Swiper/>
-          </SwiperContainer>
-          {/* <HorizontalLine/> */}
-        </div>
-     
-        
-        <Footer/>
-    </div>
-  )
-}
-
-export default Atividades

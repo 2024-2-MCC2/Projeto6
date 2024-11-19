@@ -10,6 +10,7 @@ import Ativ1 from '../imgs/ativ1.png';
 import Ativ2 from '../imgs/ativ2.png';
 import Ativ3 from '../imgs/ativ3.png';
 import Ativ4 from '../imgs/ativ4.png';
+import Ativ5 from '../imgs/ativ5.jpeg';
 
 const SwiperContainer = styled(Swiper)`
   width: 100%;
@@ -71,6 +72,11 @@ const Carousel = () => {
             <SwiperSlide>
                 <Card>
                     <CardImage src={Ativ4} alt="Atividade 4" />
+                </Card>
+            </SwiperSlide>
+            <SwiperSlide>
+                <Card>
+                    <CardImage src={Ativ5} alt="Atividade 5" />
                 </Card>
             </SwiperSlide>
             {/* Adicione mais SwiperSlides conforme necessário */}

@@ -6,7 +6,7 @@ function video(){
     return(
         <Intro>
         <Texto></Texto>
-        <Logo src={imgTest} alt="" />
+        {/* <Logo src={imgTest} alt="" /> */}
         <Jacare src={videoJacare} poster={imgTest}  loop autoplay="true" muted playsInline preload disablePictureInPicture>
             Seu navegador não suporta o elemento de vídeo.
         </Jacare>

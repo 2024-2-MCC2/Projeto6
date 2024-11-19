@@ -1,44 +1,72 @@
-import React from 'react'
-import Header from '../components/Header';
-import Footer  from '../components/Footer';
-import Video from '../components/Video4';
+import React, { useState } from 'react';
+import axios from 'axios';
 import styled from "styled-components";
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import Video from '../components/Video3';
+
+export default function Mailing() {
+  const [email, setEmail] = useState();
+  const [subject, setSubject] = useState();
+  const [message, setMessage] = useState();
+
+  const sendMail = () => {
+    axios
+      .get("http://localhost:3000/", {
+        params: {
+          email,
+          subject,
+          message,
+        },
+      })
+      .then(() => {
+        //success
+        console.log("success");
+      })
+      .catch(() => {
+        console.log("failure");
+      });
+  };
 
 
+  return (
+    <Container>
+      <Header />
+      <Video />
+      <H2>Entre em contato conosco</H2>
 
-export default function Mailing(){
-    return(
-        <>
-            <Container>
-            <Header />
-            <Video />
-            <H2>Entre em contato conosco</H2>
-  
-            <Container>
-              
-              <FormGroup>
-                <Label>Nome</Label>
-                <Input type="text" placeholder="Name" />
-              </FormGroup>
-              <FormGroup>
-                <Label>E-mail</Label> 
-                <Input type="email" placeholder="Email" />
-              </FormGroup>
-              <FormGroup>
-                <Label>Telefone</Label> 
-                <Input type="tel" placeholder="(11)11111-1111" />
-              </FormGroup>
-              <FormGroup>
-              
-                <Button>Enviar</Button>
-              </FormGroup>
-  
-            </Container>
-  
-            <Footer/>
-          </Container>
-        </>
-    );
+      <FormGroup>
+        <Label>Nome</Label>
+        <Input
+          type="text"
+          placeholder="Nome"
+          onChange={(e) => setSubject(e.target.value)}
+        />
+      </FormGroup>
+      <FormGroup>
+        <Label>E-mail</Label>
+        <Input
+          type="email"
+          placeholder="E-mail"
+          onChange={(e) => setEmail(e.target.value)}
+        />
+      </FormGroup>
+      <FormGroup>
+        <Label>Telefone</Label>
+        <Input
+          type="tel"
+          placeholder="(11) 11111-1111"
+          onChange={(e) => setMessage(e.target.value)}
+        />
+      </FormGroup>
+      <FormGroup>
+        <Button onClick={sendMail}>Enviar</Button>
+      </FormGroup>
+
+
+      <Footer />
+    </Container>
+  );
 }
 
 const H2 = styled.h2`

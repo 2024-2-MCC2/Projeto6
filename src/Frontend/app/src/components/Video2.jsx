@@ -1,4 +1,4 @@
-import videoJacare from '../imgs/ny2.mp4';
+import videoJacare from '../imgs/1ny4k.mp4';
 import imgTest from '../imgs/LogoFecapFinanceOriginal2.png';
 import styled from "styled-components";
 
@@ -6,7 +6,7 @@ function video(){
     return(
         <Intro>
         <Texto></Texto>
-        <Logo src={imgTest} alt="" />
+        {/* <Logo src={imgTest} alt="" /> */}
         <Jacare src={videoJacare} poster={imgTest}  loop autoplay="true" muted playsInline preload disablePictureInPicture>
             Seu navegador não suporta o elemento de vídeo.
         </Jacare>

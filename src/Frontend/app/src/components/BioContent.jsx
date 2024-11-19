@@ -1,28 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
-import Membro1 from '../imgs/group/anaBarreto.jpg'
-import Membro2 from '../imgs/group/brennoAugusto.jpg'
-import Membro3 from '../imgs/group/caioNunes.jpg'
-import Membro4 from '../imgs/group/gabrielChaves.jpg'
-import Membro5 from '../imgs/group/isaacSilva.jpg'
-import Membro6 from '../imgs/group/isabelleLuca.jpg'
-import Membro7 from '../imgs/group/isabelleTeixeira.jpg'
-import Membro8 from '../imgs/group/italoAlencar.jpg'
-import Membro9 from '../imgs/group/joaoCardoso.jpg'
-import Membro10 from '../imgs/group/joaoCastilho.jpg'
-import Membro11 from '../imgs/group/joaoGrassi.jpg'
-import Membro12 from '../imgs/group/joaoKozseran.jpg'
-import Membro13 from '../imgs/group/jorgePardim.jpg'
-import Membro14 from '../imgs/group/leonardoPestana.jpg'
-import Membro15 from '../imgs/group/luisFilho.jpg'
-import Membro16 from '../imgs/group/luizaManta.jpg'
-import Membro17 from '../imgs/group/micaelOrtiz.jpg'
-import Membro18 from '../imgs/group/rafaelRocha.jpg'
-import Membro19 from '../imgs/group/rodrigoArgolo.jpg'
-import Membro20 from '../imgs/group/thiagoFlorido.jpg'
-import Membro21 from '../imgs/group/victorNunes.jpg'
-import Membro22 from '../imgs/group/petraGarcia.jpg'
+
+import GabrielChaves    from '../imgs/diretoria/GabrielChaves.jpeg'
+import IsabelleTeixeira from '../imgs/diretoria/IsabelleTeixeira.jpeg'
+import LeonardoPestana  from '../imgs/diretoria/LeonardoPestana.jpeg'
+import LuizFelipeGomes from '../imgs/diretoria/LuizFelipeGomes.jpeg'
+import PedroCordeoli from '../imgs/diretoria/PedroCordeoli.jpeg'
+import PedroOka from '../imgs/diretoria/PedroOka.jpeg'
+import PetraGarcia from '../imgs/diretoria/PetraGarcia.jpeg'
+import RobertaIwanaga from '../imgs/diretoria/RobertaIwanaga.jpeg'
 
 
 
@@ -33,28 +20,14 @@ export default function BioContent() {
 
   useEffect(() => {
     const mockData = [
-      { id: '14', nome: 'Leonardo Pestana', texto: 'Contadora. Rígida e séria...', foto: Membro14 },
-      { id: '22', nome: 'Petra Garcia', texto: 'Assistente', foto: Membro22 },
-      { id: '1', nome: 'Ana Barreto', texto: 'Assistente do gerente regional...', foto: Membro1 },
-      { id: '2', nome: 'Brenno Augusto', texto: 'Gerente regional da filial...', foto: Membro2 },
-      { id: '3', nome: 'Caio Chaves', texto: 'Um dos vendedores da Dunder Mifflin...', foto: Membro3 },
-      { id: '4', nome: 'Gabriel Nunes', texto: 'Recepcionista da Dunder Mifflin...', foto: Membro4 },
-      { id: '5', nome: 'Isaac Silva', texto: 'Contadora. Rígida e séria...', foto: Membro5 },
-      { id: '6', nome: 'Isabelle Luca', texto: 'Ela é um tipo quieto...', foto: Membro6 },
-      { id: '7', nome: 'Isabelle Texeira', texto: 'Funcionário sério...', foto: Membro7 },
-      { id: '8', nome: 'Ítalo Alencar', texto: 'Chega à Dunder Mifflin...', foto: Membro8 },
-      { id: '9', nome: 'João Cardoso', texto: 'Estagiário e estudante de administração.', foto: Membro9 },
-      { id: '10', nome: 'João Castilho', texto: 'Assistente do gerente regional...', foto: Membro10 },
-      { id: '11', nome: 'João Grassi', texto: 'Gerente regional da filial...', foto: Membro11 },
-      { id: '12', nome: 'João Kozseran', texto: 'Um dos vendedores da Dunder Mifflin...', foto: Membro12 },
-      { id: '13', nome: 'Jorge Pardim', texto: 'Recepcionista da Dunder Mifflin...', foto: Membro13 },
-      { id: '15', nome: 'Luis Filho', texto: 'Ela é um tipo quieto...', foto: Membro15 },
-      { id: '16', nome: 'Luiza Manta', texto: 'Funcionário sério...', foto: Membro16 },
-      { id: '17', nome: 'Micael Ortis', texto: 'Chega à Dunder Mifflin...', foto: Membro17 },
-      { id: '18', nome: 'Rafael Rocha', texto: 'Estagiário e estudante de administração.', foto: Membro18 },
-      { id: '19', nome: 'Rodrigo Argolo', texto: 'Funcionário sério...', foto: Membro19 },
-      { id: '20', nome: 'Thiago Florido', texto: 'Chega à Dunder Mifflin...', foto: Membro20 },
-      { id: '21', nome: 'Victor Nunes', texto: 'Estagiário e estudante de administração.', foto: Membro21 }
+    { id: "1", nome: "Gabriel Chaves",  texto: 'Contato: chavesm.gabriel@gmail.com', foto: GabrielChaves},
+    { id: "2", nome: "Isabelle Teixeira", texto: 'Contato: isabelletxeira@gmail.com', foto: IsabelleTeixeira},
+    { id: "3", nome: "Leonardo Pestana", texto: ' Contato: leonardopestana6@gmail.com', foto: LeonardoPestana},
+    { id: "4", nome: "Luiz Felipe Gomes", texto: 'Contato: lgsfilho@gmail.com', foto: LuizFelipeGomes},
+    { id: "5", nome: "Pedro Cordeoli", texto: 'Contato: pedrocoriolli@gmail.com', foto: PedroCordeoli},
+    { id: "6", nome: "Pedro Oka", texto: 'Contato: pedro.oka23@gmail.com', foto: PedroOka},
+    { id: "7", nome: "PetraGarcia", texto: 'Contato: petragarcia440@gmail.com', foto: PetraGarcia},
+    { id: "8", nome: "Roberta Iwanaga", texto: 'Contato: iwanagaroberta@hotmail.com', foto: RobertaIwanaga},
   ];
   
     const fetchedMembro = mockData.find(char => char.id === id);
